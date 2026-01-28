@@ -1,33 +1,55 @@
-# 📊 Customer Churn Analysis Dashboard (Power BI)
+📊 Customer Behavior & Segmentation Analysis
 
-## 🔍 Project Overview
-This project analyzes customer churn to help businesses understand customer retention patterns and identify high-risk segments.
+SQL | Python (Pandas) | Power BI
 
-## 📌 Key KPIs
-- Total Customers
-- Active Customers
-- Churned Customers
-- Churn Rate (%)
-- Revenue Lost
+Business Problem
+A retail business wanted to understand who drives revenue, what influences spending, and how subscriptions and loyalty impact profitability.
 
-## 📈 Dashboard Features
-- Interactive slicers for Region, Gender, Customer Status, and Tenure
-- Churn trend analysis by customer tenure
-- Comparison of active vs churned customers
-- Regional churn analysis
+Dataset
 
-## 🧠 Business Insights
-- Churn is highest during early customer tenure
-- Certain regions contribute disproportionately to churn
-- Revenue loss increases with higher churn concentration
+3,300+ purchase records
 
-## 🛠 Tools & Technologies
-- Power BI Desktop
-- DAX
-- Data Modeling
-- Data Visualization
+3,900+ customers
 
-## 📷 Dashboard Preview
+18 columns (demographics, spend, discounts, subscriptions, shipping, ratings)
+
+Raw dataset with missing values → cleaned and validated
+
+Approach
+
+Used SQL (joins, aggregations, window functions) to transform raw transactions into customer-level metrics
+
+Validated data quality and metrics using Python (Pandas)
+
+Built an interactive Power BI dashboard to visualize KPIs and segments
+
+Key Insights
+
+Subscribed customers (27%) contribute ~68% of total revenue
+
+Subscribers spend ~45% more per order than non-subscribers
+
+Express shipping customers spend ~12% more than standard shipping
+
+Repeat buyers show a 78% loyalty rate, indicating strong retention potential
+
+Discounts do not reduce order value and are used by high-spending customers
+
+Business Impact
+
+Identified subscriptions as the strongest revenue lever
+
+Highlighted retention as a higher ROI strategy than acquisition
+
+Provided data-driven inputs for loyalty programs, shipping upsells, and promotions
+
+Deliverables
+
+Power BI dashboard with filters (subscription, category, shipping, gender)
+
+SQL queries for segmentation and KPI calculation
+
+Cleaned analytical tables and insights summary
 ![Dashboard Screenshot](dashboard_overview.png)
 
 ## 📂 Files Included

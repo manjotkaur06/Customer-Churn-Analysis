@@ -1,53 +1,38 @@
-📊 Customer Behavior & Segmentation Analysis
+# 📉 Customer Churn Analysis Dashboard
+Power BI | DAX | Data Modeling
 
-SQL | Python (Pandas) | Power BI
+## 🧠 Business Problem
+Understanding why customers churn and identifying high-risk segments is critical to improving retention and minimizing revenue loss.
 
-Business Problem
-A retail business wanted to understand who drives revenue, what influences spending, and how subscriptions and loyalty impact profitability.
+## 📊 Key KPIs
+- Total Customers
+- Active Customers
+- Churned Customers
+- Churn Rate (%)
+- Revenue Lost
 
-Dataset
+## 📈 Dashboard Features
+- Interactive slicers for Region, Gender, Customer Status, and Tenure
+- Churn trend analysis by customer tenure
+- Comparison of active vs churned customers
+- Regional churn and revenue loss analysis
 
-3,300+ purchase records
+## 🔍 Key Insights
+- Churn is highest during early customer tenure
+- Certain regions contribute disproportionately to churn and revenue loss
+- Revenue loss increases significantly with higher churn concentration
 
-3,900+ customers
+## 📌 Business Impact
+- Enables retention teams to prioritize early-tenure customers
+- Helps businesses target high-churn regions with focused retention strategies
+- Supports data-driven decision-making in marketing and operations
 
-18 columns (demographics, spend, discounts, subscriptions, shipping, ratings)
+## 🛠 Tools & Technologies
+- Power BI Desktop
+- DAX
+- Data Modeling
+- Data Visualization
 
-Raw dataset with missing values → cleaned and validated
-
-Approach
-
-Used SQL (joins, aggregations, window functions) to transform raw transactions into customer-level metrics
-
-Validated data quality and metrics using Python (Pandas)
-
-Built an interactive Power BI dashboard to visualize KPIs and segments
-
-Key Insights
-
-Subscribed customers (27%) contribute ~68% of total revenue
-
-Subscribers spend ~45% more per order than non-subscribers
-
-Express shipping customers spend ~12% more than standard shipping
-
-Repeat buyers show a 78% loyalty rate, indicating strong retention potential
-
-Discounts do not reduce order value and are used by high-spending customers
-
-Business Impact
-
-Identified subscriptions as the strongest revenue lever
-
-Highlighted retention as a higher ROI strategy than acquisition
-
-Provided data-driven inputs for loyalty programs, shipping upsells, and promotions
-
-Deliverables
-
-Power BI dashboard with filters (subscription, category, shipping, gender)
-
-SQL queries for segmentation and KPI calculation
 
 Cleaned analytical tables and insights summary
 ![Dashboard Screenshot](dashboard_overview.png)
